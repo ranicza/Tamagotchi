@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+#h1{
+    font-family: 'Permanent Marker', 'cursive';
+    font-size: 200%;
+}
+#create{
+    width: 40%;
+}
+#add, #eat, #sleep, #active {
+    border-radius: 60%;
+}
+#current-pet{
+    text-align: center;
+}
+#pet-info{
+    display:none;
+    margin-top: 12%;
+}
+#pets li {
+    cursor: pointer;
+    color: #0088cc;
+}
+
+#pets li:hover {
+    text-decoration: underline;
+}
+#info{
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+#image{
+    margin-top: 15%;
+    font-weight: bolder;
+    font-size: 150%;
+}
+#image p {
+    margin-left: 10%;
+}
+.form-info{
+    margin-left: 45%;
+}

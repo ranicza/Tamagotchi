@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset = "utf-8">
+    <title>Tamagotchi</title>
+</head>
+<body>
+<div class="container">
+    <div class = 'row'>
+        <div class ='col-md-4 col-xs-4'>
+            <h1 id = 'h1'>Tamagotchi</h1>
+            <ul id="pets">
+            </ul>
+
+            <form id ='create-form'>
+                <div class="form-group">
+                    <label for = 'create'>New pet</label>
+                    <input type = 'text' class="form-control" id ='create'>
+                </div>
+                <button id = "add" type="submit" class="btn btn-primary" >Add</button>
+            </form>
+        </div>
+
+        <div class = 'col-md-6 col-xs-6' id ='pet-info'>
+            <form class = 'form-info'>
+                <h3><span id = 'current-pet'></span></h3>
+                <div id = 'info'>
+                    <p>Food level: <span id = 'p-eat'></span></p>
+                    <p>Active level: <span id = 'p-active'></span></p>
+                    <p>Sleep level: <span id = 'p-sleep'></span></p>
+                </div>
+                <div class = 'buttons'>
+                    <span class="btn btn-primary" id="eat">Eat</span>
+                    <span class="btn btn-primary" id="active">Active</span>
+                    <span class="btn btn-primary" id="sleep">Sleep</span>
+
+                </div>
+                <div id = 'image'>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
